@@ -1,0 +1,27 @@
+<!Doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Conversor de Unidades</title>
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+        <h1>Conversor de Unidades</h1>
+        <form>
+            <p>
+                <label for="cm">Ingresa tu cantidad en cm</label><br>
+                <input type="number" id="cm" name="cm" step="any">
+            </p>
+            <ul>
+                <li>milimetros: <span id="mm"></span></li>
+                <li>metros: <span id="metros"></span></li>
+                <li>Kilometros: <span id="Kilometros"></span></li>
+                <li>Pulgadas: <span id="Pulgadas"></span></li>
+            </ul>
+            <p>
+                <button type="button" onclick="convertir()">Calcular</button>
+            </p>
+        </form>
+        <script src="script.js"></script>
+    </body>
+</html>
